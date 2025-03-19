@@ -1,0 +1,26 @@
+[project]
+name = "documentation-helper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.13.3",
+    "black>=25.1.0",
+    "dotenv>=0.9.9",
+    "fastapi>=0.115.11",
+    "jinja2>=3.1.6",
+    "langchain>=0.3.21",
+    "langchain-community>=0.3.20",
+    "langchain-openai>=0.3.9",
+    "langchain-pinecone>=0.2.3",
+    "nltk>=3.9.1",
+    "openai>=1.66.5",
+    "pinecone-client>=6.0.0",
+    "streamlit>=1.43.2",
+    "streamlit-chat>=0.1.1",
+    "tiktoken>=0.9.0",
+    "tqdm>=4.67.1",
+    "unstructured>=0.17.0",
+    "uvicorn>=0.34.0",
+]
